@@ -1,8 +1,3 @@
-*, html {
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
     position: relative;
     z-index: 1;
@@ -75,10 +70,14 @@
     height: 800px;
     background-image: url(assets/the-games-bg.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .Game-Choice .container-Game-Choice {
     color: white;
+    position: absolute;
+    top: 30%;
+    right: 5%;
 }
 
 .container-Game-Choice .display-game-content{
@@ -197,11 +196,11 @@
 }
 
 .container-top-score {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     position: absolute;
     top: 15%;
-    left: 5%;
+    left: 10%;
 }
 
 .colum-left {
@@ -233,9 +232,12 @@
     height: fit-content;
     position: absolute;
     top: 15%;
-    left: 5%;
+    left: 2%;
 }
 
+.container-newsletter .row {
+    --bs-gutter-x: -0.5rem;
+}
 .footer {
     position: absolute;
     bottom: 0;
